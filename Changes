@@ -1,0 +1,16 @@
+---
+version: 0.03
+date:    Tue Aug 26 09:50:57 PDT 2014
+changes:
+- Switch to Zilla-Dist
+- Move IO::All::OO to IO::All::Base
+---
+version: 0.02
+date:    Wed Jul 25 17:43:09 PDT 2012
+changes:
+- Don't index IO::All modules!
+---
+version: 0.01
+date:    Wed Jul 25 14:42:53 PDT 2012
+changes:
+- Initial release.

@@ -1,0 +1,29 @@
+=meta: 0.0.2
+
+name: Alt-IO-All-new
+version: 0.03
+abstract: Alternate IO::All - The Rewrite
+homepage: https://metacpan.org/release/Alt-IO-All-new
+language: perl
+license: perl
+copyright: 2012-2014
+
+author:
+  name: Ingy döt Net
+  email: ingy@cpan.org
+  homepage: http://ingy.net
+  github: ingydotnet
+  twitter: ingydotnet
+  freenode: ingy
+
+devel:
+  git: https://github.com/ingydotnet/alt-io-all-new-pm
+  bug: https://github.com/ingydotnet/alt-io-all-new-pm/issues
+  irc: irc.perl.org#io-all
+
+requires:
+  perl: 5.8.1
+
+branch: alt-io-all-new
+=zild:
+  include_testml: true
