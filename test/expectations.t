@@ -7,19 +7,21 @@ TestML->new(
 
 {
     package TestMLBridge;
-    use base 'TestML::Bridge';
+    use TestML::Base;
+    extends 'TestML::Bridge';
     use TestML::Util;
 
     sub setup {
-        shift;
-        my $cmd = (shift)->value;
+        my ($self, $cmd) = @_;
+        $cmd = $cmd->value;
         `$cmd`;
+        str;
     }
     sub eval_perl {
-        shift;
-        my $perl = (shift)->value;
+        my ($self, $setup, $perl, $expect) = @_;
+        $perl = $perl->value;
         # eval $perl;
-        my $expect = (shift)->value;
+        $expect = $expect->value;
         die $expect;
     }
 }

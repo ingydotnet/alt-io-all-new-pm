@@ -24,6 +24,5 @@ devel:
 requires:
   perl: 5.8.1
 
-branch: alt-io-all-new
 =zild:
   include_testml: true
