@@ -1,3 +1,4 @@
+use lib 'inc';
 use TestML;
 
 TestML->new(
