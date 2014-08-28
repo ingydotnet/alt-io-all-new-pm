@@ -1,4 +1,9 @@
 ---
+version: 0.05
+date:    Thu Aug 28 11:35:49 PDT 2014
+changes:
+- Don't index IO::All* modules
+---
 version: 0.04
 date:    Tue Aug 26 22:33:12 PDT 2014
 changes:

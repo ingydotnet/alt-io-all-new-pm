@@ -1,7 +1,7 @@
 =meta: 0.0.2
 
 name: Alt-IO-All-new
-version: 0.04
+version: 0.05
 abstract: Alternate IO::All - The Rewrite
 homepage: https://metacpan.org/release/Alt-IO-All-new
 language: perl
@@ -26,3 +26,5 @@ requires:
 
 =zild:
   include_testml: true
+  metanoindex:
+    lib/IO: directory
