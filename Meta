@@ -24,6 +24,8 @@ devel:
 requires:
   perl: 5.8.1
 
+altinstall: 1
+
 =zild:
   include_testml: true
   metanoindex:
